@@ -1,0 +1,159 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f7f7f7;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #000;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #eaeaea;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-img {
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+#about{
+    text-align: center;
+}
+
+#details {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 900px;
+}
+
+#details h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px 30px;
+  text-align: left;
+  background: #fafafa;
+  padding: 20px 30px;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.details-grid div {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.details-grid strong {
+  color: #333;
+}
+
+
+#portfolio {
+  background: #fff;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.portfolio-container img {
+  width: 25%;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.portfolio-container img:hover {
+  transform: scale(1.05);
+}
+
+/* Skills Section */
+.skills {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.skills h2 {
+  margin-bottom: 25px;
+}
+
+.skills ul {
+  list-style: none;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.skills li {
+  margin-bottom: 15px;
+}
+
+.bar {
+  background: #ddd;
+  border-radius: 25px;
+  height: 10px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  background: #f5b86b;
+}
+
+/* Contact Footer */
+.contact {
+  text-align: center;
+  background: #111;
+  color: white;
+  padding: 50px 20px;
+}
+
+.contact .btn {
+  background-color: #f5b86b;
+  color: #111;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
